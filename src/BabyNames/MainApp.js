@@ -1,8 +1,11 @@
 import React from 'react'
-
+import data from './data.json'
 function MainApp() {
+    console.log(data);
   return (
-    <div>MainApp</div>
+    <div>
+
+    </div>
   )
 }
 
