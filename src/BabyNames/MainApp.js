@@ -1,11 +1,21 @@
-import React from 'react'
 import data from './data.json'
-function MainApp() {
-    console.log(data);
-  return (
-    <div>
+import React from 'react'
+import './babyNames.css'
 
-    </div>
+function MainApp() {
+  return (
+   <div className='main-container'>
+   <div className='names-displayed'>
+    {data.map((names) => {
+         const styles = {
+            backgroundColor: names.sex === 'f'? "pink" : 'dodgerblue',
+            border: 'none',
+            
+        }
+    return <span key={names.id} style={styles}> {names.name} </span>})}
+   </div>
+   </div>
+    
   )
 }
 
