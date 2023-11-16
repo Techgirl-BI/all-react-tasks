@@ -1,5 +1,5 @@
 .main-container{
-    border: 2px solid pink;
+    border: 4px solid pink;
     width: 80%;
     margin: auto;
     margin-top: 100px;
@@ -14,7 +14,9 @@
     margin: auto;
     margin-top: 100px;
     border-bottom: 3px solid lightgrey;
+    border-top: 3px solid lightgrey;
     padding-bottom: 100px;
+    padding-top: 60px;
 }
 p{
     border-radius: 5px;
@@ -26,6 +28,41 @@ input{
     height: 40px;
    position: relative;
    left: 400px;
-   top: 60px;
+   top: 80px;
 font-size: larger;
+}
+.favorite{
+    width: 80%;
+    position: relative;
+    top: 90px;
+    margin: auto;
+    margin-bottom: 120px;
+    display: flex;
+    align-items: baseline;
+}
+#storeData{
+    display: inline;
+}
+.fav-list{
+    display: flex;
+}
+.btn-input{
+    display: flex;
+}
+.btns{
+    position: relative;
+    left: 450px;
+    margin-top: 82px;
+}
+button{
+    padding: 10px;
+    margin-left: 10px;
+    border: none;
+}
+#female{
+    background-color: pink;
+}
+#male{
+    background-color: dodgerblue;
+    
 }
