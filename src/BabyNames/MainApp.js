@@ -39,6 +39,7 @@ function MainApp() {
   };
   return (
     <div className="main-container">
+        <h1 className="title">Baby Name Picker</h1>
       <div className="btn-input">
         <input
           onChange={(e) => setSearchTerm(e.target.value)}
